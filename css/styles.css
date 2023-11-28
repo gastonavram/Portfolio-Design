@@ -570,11 +570,11 @@ footer {
     width: 250px;
     height: auto;
     padding: 10px 5px;
-    transition: .5s ease all;
+    transition: .5s all;
 }
 
 .project-image img:hover {
-    transform: scale(1.09);
+    filter: drop-shadow(4px 4px 2px #337ab7);
 }
 
 .project-info {
@@ -605,25 +605,6 @@ footer {
     transform: none
 }
 
-.more-projects {
-    height: 20rem;
-    text-align: center;
-    background: lightslategray;
-}
-
-.more-projects2 {
-    position: relative;
-    margin: 0px;
-}
-
-.more-projects2 a {
-    color: #000;
-    transition: .3s ease;
-}
-
-.more-projects2 a:hover {
-    color: #00d9ff;
-}
 
 #skills {
     padding: 50px 15px;
@@ -661,8 +642,8 @@ footer {
 }
 
 #skills li:hover {
-    transform: scale(1.09);
     background: #def0ff;
+    filter: drop-shadow(0px 0px 2px #74c2f5);
 }
 
 #contact {
